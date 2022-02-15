@@ -1,0 +1,59 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.faded {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+header.main {
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=820&q=80);
+    background-size: cover;
+    height: 100%;
+    
+}
+
+
+header.main .space {
+    margin-top: 170px;
+    margin-bottom: 30px;
+}
+
+header.main h1 {
+    font-size: 3rem;
+}
+
+header.main p {
+    font-size: 1.4rem;
+}
+
+/*Buttons*/
+
+header .btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .btn-xl {
+    padding: 1rem 2rem;
+}
+
+header .btn-primary {
+    background-color: #F05F44;
+    border-color: #F05F44;
+}
+
+header .btn-primary:hover {
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+    border-width: 4px;
+    cursor: pointer;
+}
